@@ -28,8 +28,5 @@ public class MessageSenderImpl implements MessageSender {
             return localizationService.locale(location.getCountry());
         }
         return localizationService.locale(Country.USA);
-
-
-
     }
 }
